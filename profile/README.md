@@ -35,7 +35,7 @@ I will share what made me to keep this tools out of Kubernetes for general resea
 
 As k8s has containers, I expected worst case scenario stuff get slow and I kill some pods and all go back to normal. 
 
-That is not what happen, the pod bursting data to Kafka locked the network between itself and the Kafka cluster in some pods and different hosts. The issue that in the process it also, prevented k8s to talk between itself(in the end k8s is just a bunch of pods too)... and pods went bananas and cluster went to a unreachable state. The only solution was to hard kill the hosts VMs and install all over again, all state was lost and I had to start over from zero. I deployed Kafka on docker hosts directly, did the same benchmark and never got kicked out of my machine again, and a lesson was learned. Respect tools that care about state and like to lve on the limit of the host resources."
+That is not what happen, the pod bursting data to Kafka locked the network between itself and the Kafka cluster in some pods and different hosts. The issue that in the process it also, prevented k8s to talk between itself(in the end k8s is just a bunch of pods too)... and pods went bananas and cluster went to a unreachable state. The only solution was to hard kill the hosts VMs and install all over again, all state was lost and I had to start over from zero. I deployed Kafka on docker hosts directly, did the same benchmark and never got kicked out of my machine again, and a lesson was learned. Respect tools that care about state."
 
 
 Some other references on this discussion k8s vs docker host: 
