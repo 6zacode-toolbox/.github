@@ -56,3 +56,5 @@ The point is not that these tools compete, but to use the [proper hammer to the 
 Welcome to the journey, 
 
 @6za
+
+> [<img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-mark-color.svg" style="height: 24px; width: 24px; margin-right: 8px;">](https://www.paypal.com/donate/?hosted_button_id=Z6NRZUV9KU66G) _feel free to donate in case you want to support open-source projects work._
